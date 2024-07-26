@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
     @GetMapping("/hello")
     public String index() {
-        System.out.println("print orders from FDA");
+        System.out.println("Print orders from FDA");
         return "orders from FDA";
     }
 }
